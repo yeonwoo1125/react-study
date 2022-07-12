@@ -14,8 +14,9 @@ function UseEffectUnmountDemo(props) {
         return () => {
             // 타이머 정리
             clearInterval(id)
+            console.log("wjdflwkrdj")
         }
-    }, [])
+    },[])
 
     return <div>{count}</div>
 }
